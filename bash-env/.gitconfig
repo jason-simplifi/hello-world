@@ -1,0 +1,9 @@
+[push]
+	default = simple
+[user]
+	name = Jason Rodriguez
+	email = jason@simpli.fi
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
